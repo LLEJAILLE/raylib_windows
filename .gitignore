@@ -1,0 +1,17 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+
+# Build directories
+build/
+bin/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.xcodeproj
