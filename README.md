@@ -6,8 +6,26 @@ Here is a project to init a raylib project with C++ on Windows with the easiest 
 
 ## Prerequisites
 
-- [MingW64](https://www.youtube.com/watch?v=xWjXRV3mKa4&t=396s&ab_channel=GeekyScripts) : Compiler for Windows.
+- [MingW64](https://sourceforge.net/projects/mingw-w64/) : Compiler for Windows.
 - [Raylib](https://github.com/raysan5/raylib/wiki/Working-on-Windows) : lib for graphic.
+
+
+- after install the MinGW64 zip file:
+    - Unzip all files
+    - copy and paste de "MingW64" folder in the root of your main disk (exemple: C:\mingw64)
+    - Press windows key and write "environment", press enter
+    - click on "environment variables"
+    - For your user, click on path, Edit, New and paste the path to the bin (should be: C:\mingw64\bin)
+    - open powershell and write "g++ --version"
+
+     You will obtain something like that:
+      ```shell
+        g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r1) 14.1.0
+        Copyright (C) 2024 Free Software Foundation, Inc.
+        This is free software; see the source for copying conditions.  There is NO
+        warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      ```
+      
 
 ## Installation
 
