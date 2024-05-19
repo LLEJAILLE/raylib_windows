@@ -17,9 +17,7 @@ Here is a project to init a raylib project with C++ on Windows with the easiest 
     git clone https://github.com/LLEJAILLE/raylib_windows
     ```
 
-2. Copy and paste the raylib folder "./lib" and "./include" in the root of the project.
-
-3. Compile the project :
+2. Compile the project :
     There is two ways to compile the project : (using .bat file or using makefile)
 
     - Using .bat file :
